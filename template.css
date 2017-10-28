@@ -1,6 +1,6 @@
-/****************************************************************************************************************
+/***************************************************************************************************************
 Copyright 2009 Sell It Smart GmbH. Alle Rechte vorbehalten. 
-Das Kopieren im Ganzen oder in Teilen ohne unsere vorherige ausdrückliche schriftliche Zustimmung ist untersagt. 
+Das Kopieren im Ganzen oder in Teilen ohne unsere vorherige ausdrÃ¼ckliche schriftliche Zustimmung ist untersagt. 
 Jegliche Zuwiderhandlungen werden juristisch verfolgt.
 ****************************************************************************************************************/
 
@@ -8,7 +8,7 @@ Jegliche Zuwiderhandlungen werden juristisch verfolgt.
 /* 1+++++++++++++++++++++ ein- und ausblenden der Module ++++++++++++++++++++++ */
 /* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-/* Favoriten Newsletter beobachten -links können einzeln an und aus gestellt werden*/
+/* Favoriten Newsletter beobachten -links kÃ¶nnen einzeln an und aus gestellt werden*/
 div#favnews {display:;}
 #beobachten {display:;}
 #favorit {display:;}
@@ -26,14 +26,14 @@ div#favnews {display:;}
 /* BlindBoxen in den Spalten (kleine Boxen) */
 #blind_rechts, #blind_links {display:;}
 
-/* Module in der Mitte (große Boxen) */
+/* Module in der Mitte (groÃŸe Boxen) */
 #datenschutz {display:;}
 #kaufabwicklung {display:;}
 #versand {display:;}
 #widerruf {display:;}
 #impressum_grbox {display:;}
 
-/* zusätzlich an- und abschaltbare Elemente*/
+/* zusÃ¤tzlich an- und abschaltbare Elemente*/
 .agb_satz {display:;}
 
 /* aus-/einblenden der Kopf- und Fussnavigationselemente  */
@@ -111,7 +111,7 @@ background:url(gfx/kopfzeile-bg.gif);
 
 #arbeitsbereich {background: #1e1e1e;}
 
-/* über das Logo schieben für den Shop-Startseiten Link */
+/* Ã¼ber das Logo schieben fÃ¼r den Shop-Startseiten Link */
 a.logolink {
 height: 127px;
     left: 29px;
@@ -119,7 +119,7 @@ height: 127px;
     width: 268px;
 }
 
-/* über die Mail im Kopf schieben für Mailverlinkung */
+/* Ã¼ber die Mail im Kopf schieben fÃ¼r Mailverlinkung */
 a.maillink {
 display:none;
 position:absolute;
@@ -130,7 +130,7 @@ left:300px;
 border: 1px #000000 solid;
 }
 
-/* hier kann im Spezialfall das DIV mit dem Favoriten-, Newsletter-... link umpositioniert werden dann entsteht ein weißraum über dem Template */
+/* hier kann im Spezialfall das DIV mit dem Favoriten-, Newsletter-... link umpositioniert werden dann entsteht ein weiÃŸraum Ã¼ber dem Template */
 #favnews {font-family: arial; font-weight: normal; font-size: 11px; color:#ffffff; text-align: left;}
 
 /* Balken hinter der Kopfzeile */
@@ -179,7 +179,7 @@ left:712px;
 /* 5+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* 5++++++++++++++++++++++ Definition der kleinen Boxen +++++++++++++++++++++++ */
 /* 5+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* 5++++++ Inhalte der Boxen werden über in der "p.1" Klasse definiert. +++++++ */
+/* 5++++++ Inhalte der Boxen werden Ã¼ber in der "p.1" Klasse definiert. +++++++ */
 
 .klbox-kopf {height: 40px; background: url(gfx/klbox-kopf-bg.gif) no-repeat;}
 
@@ -207,7 +207,7 @@ padding: 10px 8px 5px 8px;
 
 /** Hier kann das Suchformular angepasst werden **/
 /** Breite des Eingabefeldes und Abstand zwischen Eingabefeld und Button **/
-/** Standard für linke Box: width:120px und margin-right:5px **/
+/** Standard fÃ¼r linke Box: width:120px und margin-right:5px **/
 #suche-eingabe {width:205px; margin-right:16px; background: none; border: none;}
 
 #suche-btn {margin-bottom: -8px !important;}
@@ -234,7 +234,7 @@ padding: 10px 8px 5px 8px;
 /* 6+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* 6++++++++++++++++++++++ Definition der grossen Boxen +++++++++++++++++++++++ */
 /* 6+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* 6++++++ Inhalte der Boxen werden über in der "p.1" Klasse definiert. +++++++ */
+/* 6++++++ Inhalte der Boxen werden Ã¼ber in der "p.1" Klasse definiert. +++++++ */
 
 .grbox-kopf {height: 40px; background:url(gfx/grbox-kopf-bg.gif) no-repeat;}
 
@@ -256,7 +256,7 @@ color: #333333;
 padding: 5px 25px 5px 22px;
 }
 
-/* Anfang UP: eingefügt für Abwicklungsinfos 30.01.2008 */
+/* Anfang UP: eingefÃ¼gt fÃ¼r Abwicklungsinfos 30.01.2008 */
 /* DB: z.B.: Afterbuy-Logo 21.02.2008 */
 .grbox-content .symbolbild {
 width: 100px;
@@ -273,7 +273,7 @@ padding: 0px 0px 10px 0px;
 
 .grbox-content .clearfloating {clear: both; height: 15px;}
 
-/* ENDE UP: eingefügt für Abwicklungsinfos 30.01.2008 */
+/* ENDE UP: eingefÃ¼gt fÃ¼r Abwicklungsinfos 30.01.2008 */
 
 #datenschutz .grbox-content p {
 font-size: 11px;
@@ -382,7 +382,7 @@ padding: 0px 19px 0px 19px;
 /** #################################################### **/
 /** ########### Allg. Einstellungen Flyout ############# **/
 
-/** abstand innerhalb der box über und unter der navi **/
+/** abstand innerhalb der box Ã¼ber und unter der navi **/
 #mainnavi {padding-top:0px; padding-bottom:0px}
 
 /** schriftdefinitionen **/
@@ -418,10 +418,10 @@ table#StoreCategories, #mainnavi ol li, div.lcat {background:url(gfx/spalte-link
 
 table#StoreCategories a, div.lcat a, div.lcat span {text-decoration:none;}
 
-/**blendet eBay Kategorieköpfe aus**/
+/**blendet eBay KategoriekÃ¶pfe aus**/
 #LeftPanel .v4acp_head {display: none;}
 
-/**stylet zusätzliche Kategorien**/
+/**stylet zusÃ¤tzliche Kategorien**/
 .s_recat li {margin-top: 0px;}
 .s_recat li span {display: none;}
 
