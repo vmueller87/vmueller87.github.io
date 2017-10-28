@@ -1,0 +1,18 @@
+/****************************************************************************************************************
+Copyright 2009 Sell It Smart GmbH. Alle Rechte vorbehalten. 
+Das Kopieren im Ganzen oder in Teilen ohne unsere vorherige ausdrückliche schriftliche Zustimmung ist untersagt. 
+Jegliche Zuwiderhandlungen werden juristisch verfolgt.
+****************************************************************************************************************/
+
+/* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* 1+++++++++++++++++++ gesonderte Attribute der Michseite ++++++++++++++++++++ */
+/* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.mich_spalte {display:none}
+#drei_spalten {position:relative; margin-top:-59px; height:auto;}
+#drei_spalten_table {width:990px; }
+#linke_spalte, #rechte_spalte {position:relative}
+#rechte_spalte {margin-left:0px}
+*html #dd_navi a{width:176px !important;}
+*+html #dd_navi a{width:176px !important;}
+#solution {margin-top: -40px !important;}

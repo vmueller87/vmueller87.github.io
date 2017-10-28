@@ -1,0 +1,124 @@
+/****************************************************************************************************************
+Copyright 2009 Sell It Smart GmbH. Alle Rechte vorbehalten. 
+Das Kopieren im Ganzen oder in Teilen ohne unsere vorherige ausdrückliche schriftliche Zustimmung ist untersagt. 
+Jegliche Zuwiderhandlungen werden juristisch verfolgt.
+****************************************************************************************************************/
+
+/* Hauptkategorie CSS(Shop) */
+.category b a, .category b a:visited, .category b a:hover {border-bottom:0px solid #FFFFFF !important;}
+
+/** Kopfszeile von eBay **/
+.pagecontainer table table table table table td b font{line-height:20px;}
+
+/** Wenn Suche in der Linken-Spalte ausgeblendet ist verschieben der Kategorie   **/
+table#StoreCategories{ margin-top:0px; }
+div.lcat {margin-top: 25px;}
+
+/** nur aktiv wenn Suche in linker Spalte (immer 3px weniger als ff)
+*html div.lcat {margin-top: 47px;}
+*+html div.lcat {margin-top: 47px;}
+**/
+
+/* 4++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* 4+++++++++++++++++++++++ Allgemeine Definitionen ++++++++++++++++++++++++ */
+/* 4++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.pagecontainer table table table table table b{width:100%;}
+.pagecontainer table table table table table b font{width:100%;}
+
+/** Schriftgröße für Produktlisting Kopftzeile**/
+.ebItemlist thead tr td, .ebItemlist thead tr td a, .shipTo{ font-size:10px !important;}
+
+/** Linkfarbe für mittleren Bereich **/
+#CentralArea a, #CentralArea a:visited, .cur {color:#ff4a08 !important;}
+#CentralArea a:hover {color:#ff4a08 !important;}
+
+/** Linke-Spalte: padding **/
+.pagecontainer table table table table td{ padding:0px;}
+/** Listenansicht: padding **/
+table.single td{ padding:5px !important;}
+
+/** Galerieansicht Breitenanpassung **/
+#gallery2 ul.title li { width:140px !Important;}
+
+/** Galerieansicht Titel **/
+.ebItemlist th{line-height:20px;}
+
+/** mittlere Promotionbox auf 100% Breite IE **/
+.pagecontainer  table table table table{ width:100% !important;}
+
+/** 100% Hintergrundbalken **/
+#head_bg {display: none;}
+body {background: #1e1e1e;}
+.pagewidth {background: url(gfx/ebay-bg.gif) repeat-x center top;}
+
+/** Hintergrund für Produktlisting Zeilen **/
+table.nol{background:url(gfx/listing_bg.gif) repeat-x;}
+table.nol td a {font-weight:bold}
+td.details {width:100%}
+table.li2wb { border:none !important;}
+
+#PromoListView font, .v4toppromos .v4acp_head font {line-height:34px; padding-left:7px; margin-top:-12px;font-size:12px; color:#ffffff}
+#PromoListView, .v4toppromos .v4acp {background:url(gfx/promobox_bg.gif) repeat-x; border: 1px #ff9c00 solid;}
+#TopPromoArea {margin-top:-15px;}
+#TopPromoArea ul, #TopPromoArea li {margin-top:5px;}
+
+.cmpb {background:none !important;}
+div.hr {margin:0px !important; padding:0px; width:100%; border-bottom:2px solid #ccc;}
+
+/** Suche in linke Spalte **/
+.v4acpcont {margin:0px !important;}
+.v4acpcont td, .v4midbox, .v4nfc {border:0px !important;}
+
+form.suche_mitte_inhalt {display:block !important;}
+.suche_mitte_inhalt table, form.suche_mitte_inhalt, .suche_mitte {width:176px !important;}
+
+.suche_mitte_inhalt td {width:0px !important;}
+.suche_mitte {height:70px;}
+
+.v4sbox {width:65px !important;}
+.v4acp_mid .v4mid form table {padding: 30px 10px 0px 20px; color: #ffffff;}
+*html .v4acp_mid .v4mid form {padding: 30px 10px 0px 20px; color: #ffffff; width: 146px !important;}
+*+html .v4acp_mid .v4mid form {padding: 30px 10px 0px 20px; color: #ffffff; width: 146px !important;}
+
+/** Sonstiges **/
+#LeftPanel .v4title font {font-size:5px !important}
+.stBadge {margin-top: 95px;}
+.shop-bg {background: url(gfx/shop-bg.gif) repeat-y;}
+.v4acp_mid {background: #ffffff !important;}
+.link {padding-left: 0px !important;}
+
+/** Michseite **/
+#akt_bewertung .grbox-kopf .p1 {text-align:left !important;}
+
+/** Tabellentext und Linkfarbe mich-Seite **/
+#akt_bewertung table td {color: #ff4a08 !important;}
+#akt_bewertung a {color: #ff4a08 !important; text-decoration: underline;}
+#akt_bewertung a:hover {color: #ff4a08 !important; text-decoration: none;}
+
+#akt_angebot table td {color: #ff4a08 !important;}
+#akt_angebot a {color: #ff4a08 !important; text-decoration: underline;}
+#akt_angebot a:hover {color: #ff4a08 !important; text-decoration: none;}
+
+/** apanado-Hinweis auf der Michseite **/
+#apanado_seo a {color: #ff4a08 !important; text-decoration: underline;}
+#apanado_seo a:hover {color: #ff4a08 !important; text-decoration: none;}
+
+/** Gestaltung des eBay Footers **/
+#storercp {background: none; color: #ffffff; padding: 0px;}
+#storercp a{color: #ffffff;}
+#sModule, #glbfooter {background: none; color: #ffffff; padding: 0px;}
+#sModule a, #glbfooter a {color: #ffffff;}
+#storercp .stBadge-text {color: #ffffff;}
+.stBadge .whiter-rcp {border: none;}
+#storercp_mide .stBadge-midContent td {padding: 0px;}
+#storercp_mide .stBadge-midContent {padding: 10px 0px 10px 0px;}
+#storercp_mide .stBadge-midContent table table {background: none;}
+.stBadge-accent td {background: none !important;}
+.coreFooterLegalNotice {color:#ffffff; text-align: center;}
+.g-pipe {color: #ffffff; text-align: center;}
+#sFooter {color:#ffffff; font-size: 12px; text-align: center;}
+
+.lcat .ttl {display: none !important;}
+
+td#CentralArea div.v4stabl {color: #ffffff;}
