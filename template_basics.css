@@ -1,0 +1,144 @@
+/****************************************************************************************************************
+Copyright 2009 Sell It Smart GmbH. Alle Rechte vorbehalten. 
+Das Kopieren im Ganzen oder in Teilen ohne unsere vorherige ausdrückliche schriftliche Zustimmung ist untersagt. 
+Jegliche Zuwiderhandlungen werden juristisch verfolgt.
+****************************************************************************************************************/
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++ Allgemeine Definitionen +++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+p.p1 {margin:0px; padding:0px;}
+
+#indikator {display: none; font-size:1px; color:#FFFFFF;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++ Kopfzeile und Inhalt +++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#kopfzeile .suche {position:absolute;}
+#favnews {position:relative; z-index:100; text-align: right; width:990px; line-height:20px;}
+
+#kopfzeile {width: 990px; height: 120px; position:relative; overflow:hidden; text-align: left; z-index:1000;}
+
+a.logolink {position:absolute; display:block;}
+
+#kopfnavi {overflow:hidden; position:absolute; z-index:500;}
+#kopfnavi ol {margin:0; padding:0; list-style: none inside; border: 0 none transparent;}
+#kopfnavi ol li {float:left;}
+#kopfnavi ol li a, #kopfnavi ol li a:visited {display:block; font: bold 12px Arial; text-decoration:none}
+#kopfnavi ol li a:hover {font: bold 12px Arial; text-decoration:none;}
+*html #kopfnavi ol li a {width:1px; white-space:nowrap}
+
+#head_bg {position:absolute; z-index:10; width:100%; height:110px; left:0;}
+*html body {margin:0px; padding:0px;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ Definition der 3 Spalten +++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#drei_spalten {width: 990px; /*UP 29.07.2009height:100%*/}
+*html #drei_spalten_table {height:100%}
+#linke_spalte, #rechte_spalte {width: 176px; height: 100%; text-align:left; }
+#mittlere_spalte {width: 638px; height: 100%; text-align:left;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++ Definition der kleinen Boxen +++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.klbox-kopf {width: 176px;}
+.klbox-content {width: 176px;}
+.klbox-fuss {width: 176px; padding: 0px;}
+
+#linke_spalte .klbox-kopf, #linke_spalte .klbox-content, #linke_spalte .klbox-fuss, #linke_spalte .bbox-kopf, #linke_spalte .bbox-content, #linke_spalte .bbox-fuss, #LeftPanel div.ttl  {background-position:left top} 
+#rechte_spalte .klbox-kopf, #rechte_spalte .klbox-content, #rechte_spalte .klbox-fuss, #rechte_spalte .bbox-kopf, #rechte_spalte .bbox-content, #rechte_spalte .bbox-fuss {background-position:right top} 
+
+#suchform {position:relative;}
+#suche-btn {padding:0px 1px 0px 1px}
+*html #suche-btn {padding:0px 0px 0px 1px }
+*html #suche-eingabe {top:-1px; position:relative}
+
+.bbox-kopf {width: 176px;}
+.bbox-content {width: 176px; height:100%;}
+.bbox-fuss {width: 176px;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++ Definition der grossen Boxen +++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.grbox-kopf {width: 638px;}
+.grbox-content {width: 638px;}
+.grbox-fuss {width: 638px; padding: 0px; position:relative;}
+
+#widerruf .grbox-kopf {position:relative;}
+#printdiv {height:100%; position:absolute; top:0; right:20px; display:block; width:100px;}
+#printdiv a#printlink {display:block; position:absolute; width:100px; font-family:Arial !important; font-size:10px !important; color:#000000; top:0; line-height:30px;}
+#printdiv a#printlink:hover {text-decoration:none}
+
+#widerruf_box {overflow:auto; width:578px; height:150px; border:2px solid #ffffff;}
+*html #widerruf_box {width:575px;}
+
+.agb_satz a, #agb_satz a:visited {color:#000000}
+.agb_satz a:hover {text-decoration:none}
+
+a.toplink {display:block; width:50px; height:100%; position:absolute; right:0;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ Definition der Fusszeile +++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#fusszeile {posiiton:absolute; width: 990px; height: 80px; overflow:hidden;}
+#fussnavi {position:relative}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++ HauptNavigation ++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+div#mainnavi {overflow:hidden; z-index:1000;}
+
+#mainnavi ol {margin:0px; padding:0px; width:176px; list-style: none inside none;}
+			
+#mainnavi ol li {display:block; margin:0px; padding:0px; float:left;}
+
+#mainnavi ol li ol {visibility:hidden; position:absolute; z-index:2000 !important; margin-left:176px;}
+
+#mainnavi ol li ol li ol {visibility:hidden; position:absolute;  z-index:2100 !important;}
+#mainnavi ol li:hover ol li ol, #mainnavi ol li a:hover ol li ol {visibility:hidden;}
+
+*html #mainnavi ol li ol {padding-top:1px}
+
+#mainnavi ol li a, #mainnavi ol li a:visited {display:block; width:176px;}
+#mainnavi ol li a:hover {position:relative;}
+
+#mainnavi ol li:hover ol, #mainnavi ol li a:hover ol {visibility:visible; display:block}
+#mainnavi ol li ol li:hover ol, #mainnavi ol li ol li a:hover ol {visibility:visible;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++ Dropdown Navigation ++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+ul#dd_navi, ul#dd_navi li, ul.subkats1, ul.subkats2{ list-style:none; padding:0px; margin:0px;}
+ul#dd_navi br{ display:none;}
+a.katlink, a.subkat1, a.subkat2, a.katlink_on, a.subkat1_on{ display:block;}
+
+/**bis die dtd kommt**/
+*html #dd_navi a{width:176px !important;}
+*+html #dd_navi a{width:176px !important;}
+
+#drei_spalten_table{ height:100%;}
+
+/* 2011-08-29 100% blindbox fix ie9 */
+#a#b, #rechte_spalte {position:relative\9; overflow:hidden\9;}
+#a#b, #linke_spalte {position:relative\9; overflow:hidden\9;}
+#rechte_spalte td, #linke_spalte td {vertical-align:top;}
+#a#b, #rechte_spalte .bbox-content {position:absolute\9; height:100%; padding:0px;}
+#a#b, #linke_spalte .bbox-content {position:absolute\9; height:100%; padding:0px;}
+#a#b, #rechte_spalte .bbox-fuss {position:absolute\9; bottom:0; padding:0px}
+#a#b, #linke_spalte .bbox-fuss {position:absolute\9; bottom:0; padding:0px}
+
+*html #rechte_spalte .bbox-content {position:static;}
+*html #linke_spalte .bbox-content {position:static;}
+*html #rechte_spalte .bbox-fuss {position:static;}
+*html #linke_spalte .bbox-fuss {position:static;}
+*html #linke_spalte {position:static; overflow:auto;}
+*html #rechte_spalte {position:static; overflow:auto;}
