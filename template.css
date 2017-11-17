@@ -1,8 +1,51 @@
 /***************************************************************************************************************
-Copyright 2009 Sell It Smart GmbH. Alle Rechte vorbehalten. 
-Das Kopieren im Ganzen oder in Teilen ohne unsere vorherige ausdrückliche schriftliche Zustimmung ist untersagt. 
-Jegliche Zuwiderhandlungen werden juristisch verfolgt.
+Copyright 2017 Valentin Müller für Vavado 
 ****************************************************************************************************************/
+/* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* 1+++++++++++++++++++++ Gallerie                       ++++++++++++++++++++++ */
+/* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+	div.bigpicture {
+		position: absolute;
+		top: 0; 
+		left: 0;
+		width: 580px;
+		height: 440px;
+		text-align: center;
+		border-color: #013c61;
+		display: none;
+		transition: all 3s ease 0s;
+	}
+	div.bigpicture:target {
+		display: inline;
+	}
+	div.smallpicture:hover, div.smallpicture:active {
+		opacity:1;
+	}	
+	
+	div.smallpicture {
+		opacity: 0.5;
+		
+	}	
+	
+	div.bigpicture img {
+	    vertical-align: middle;
+		border: 0 none;
+		max-width: 400px;
+		
+		
+	}
+	
+	div.bigpicture span {
+	    width: 10px;
+		height: 100%;
+		display: inline-block;
+		margin-left: -10px;
+		vertical-align: middle;
+	}
+/* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* 1+++++++++++++++++++++ ende                           ++++++++++++++++++++++ */
+/* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* 1+++++++++++++++++++++ ein- und ausblenden der Module ++++++++++++++++++++++ */
